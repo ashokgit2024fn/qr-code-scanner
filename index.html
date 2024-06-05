@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+<title>Frontend Mentor | QR code component</title>
+<style>
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 254);
+  border-radius: 10px;
+  width: 80%;
+  max-width: 300px; 
+  height: auto; 
+}
+
+body {
+  background-color: rgb(140, 186, 227);
+}
+
+.img {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: wrap;
+}
+
+.caption-one {
+  padding-top: 15px;
+  padding-bottom: 15px; 
+  font-size: 16px; 
+  color: rgb(4, 4, 43);
+  font-weight: bolder;
+}
+
+.qr-code {
+  border-radius: 12px;
+  width: 270px;
+  height: 270px;
+}
+</style>
+</head>
+<body>
+
+<article class="container">
+  <section class="frame">
+    <figure class="img">
+      <img class="qr-code" src="images/image-qr-code.png" title="image-qr-code"  alt="QR Code">
+      <figcaption class="caption-one">Improve your front-end skills by building projects</figcaption>
+      <figcaption class="caption-two" style="color: rgb(182, 182, 182);">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</figcaption>
+    </figure>
+  </section>
+</article>
+
+</body>
+</html>
